@@ -1,1 +1,1 @@
-module.exports = require('./lib/infobip')();
+module.exports = require('./lib/infobip');
