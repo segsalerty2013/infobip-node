@@ -15,7 +15,7 @@
     "gateway",
     "nodejs",
     "expressjs",
-    "js",
+    "js"
   ],
   "dependencies": {
     "request": "2.x.x"
