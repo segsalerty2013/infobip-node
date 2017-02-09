@@ -1,0 +1,32 @@
+{
+  "name": "infobip-node",
+  "version": "1.0.0",
+  "description": "Simple Library for easy Infobip services integration: https://www.infobip.com/ - Mobile communcation Gateway solution",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segsalerty2013/infobip-node.git"
+  },
+  "keywords": [
+    "sms",
+    "voice",
+    "TTS",
+    "infobip",
+    "gateway",
+    "nodejs",
+    "expressjs",
+    "js",
+  ],
+  "dependencies": {
+    "request": "2.x.x"
+  },
+  "author": {
+    "name": "Mustafa Segun A",
+    "email": "segsalerty@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/segsalerty2013/infobip-node/issues"
+  },
+  "homepage": "https://github.com/segsalerty2013/infobip-node#readme"
+}
