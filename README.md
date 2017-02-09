@@ -1,9 +1,9 @@
-# routesms
+# Infobip
 Simple Javascript Library for easy Infobip services integration: [https://dev.infobip.com/](https://dev.infobip.com/) - Which includes SMS, VOICE and TEXT to SPEECH (TTS)
 
 ### Installation
 
-`npm install infobip-js`
+`npm install infobip-node`
 
 ### How to use ?
 
@@ -11,14 +11,16 @@ Simple Javascript Library for easy Infobip services integration: [https://dev.in
 const username = "xxxxxxx";
 const password = "xxxxxxxxx";
 
-var infobip = require('infobip-js')(username, password);
+var infobip = require('infobip-node')(username, password);
 
 infobip.sender.source = "message-from"; //use numbers only for voice
 infobip.sender.destinaton.push('telephone-number');//to send to a single telephone number
 //or
 infobip.sender.destinaton = ['array-of-many-numbers']; // to send to many telephone numbers in bulk
 
-### For SMS
+/**
+ For SMS
+*/
 
 infobip.sender.message = "message-content"; //text message content
 
@@ -27,8 +29,9 @@ infobip.send('sms', function(response){
   console.log(response);
 });
 
-
-### For VOICE
+/**
+For VOICE
+*/
 
 infobip.sender.bulkId = "XOXO-898-YXXX"; //your unique generated bulk id for this voice message
 infobip.sender.text = ""; //for text to speach (this is optional if @audioFileUrl is defined)
