@@ -1,6 +1,6 @@
 {
   "name": "infobip-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple Library for easy Infobip services integration: https://www.infobip.com/ - Mobile communcation Gateway solution",
   "main": "index.js",
   "repository": {
